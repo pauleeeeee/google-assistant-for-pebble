@@ -1,0 +1,36 @@
+{
+  "name": "google-assistant",
+  "author": "swansswansswansswansosoft",
+  "version": "1.0.0",
+  "keywords": ["pebble-app", "google", "assistant", "google-assistant"],
+  "private": false,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Google Assistant",
+    "uuid": "77577805-399a-499c-8e53-c9f07ff25688",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": {
+      "GAssistantResponse" : 9
+    },
+    "resources": {
+      "media": [
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "menu_icon.png"
+        }
+      ]
+    }
+  }
+}
